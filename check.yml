@@ -1,5 +1,8 @@
 #!/usr/bin/env python3
-"""
+on:
+  schedule:
+    - cron: "0 * * * *"
+  workflow_dispatch:
 VPN Gate SSTP 节点检测流水线 (精简版)
 =====================================
 流程:
